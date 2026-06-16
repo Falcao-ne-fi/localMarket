@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "desc": "Galinha Sedosa",
+        "imagem": "../public/Ga_silkie.jpg",
+        "valor": 600.00
+    },
+    {
+        "id": 2,
+        "desc": "Galinha Jersey Giagante",
+        "imagem": "../public/jersey_gigante.jpg",
+        "valor": 1200.00
+    },
+    {
+        "id": 3,
+        "desc": "Galinha Leghorn",
+        "imagem": "../public/ga_ga.webp",
+        "valor": 300.00
+    }
+]
