@@ -1,3 +1,10 @@
+:root{
+    --azul1: #44cfcb;
+    --azul2: #4ea5d9;
+    --azul3: #2a4494;
+    --laranja1: #224870;
+    --laranja2: #122c34;
+}
 *{
     padding: 0;
     margin: 0;
@@ -6,16 +13,25 @@
 }
 .logo{
     width: 100px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
 }
+.container{
+    
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px var(--laranja1);
 
+}
 .error-div{
+    color: #FFFFFF;
     display: none;
     flex: row;
     justify-content: center;
     align-items: center;
     width: auto;
     height: auto;
-    background-color: rgb(236, 161, 173);
+    background-color: var(--laranja2);
     gap: 20px;
     padding: 10px;
     position: absolute;
@@ -25,4 +41,8 @@
     font-size: 14px;
     font-weight: lighter;
     box-shadow: 0px 5px 20px #090909a2;
+}
+.round{
+    position: absolute;
+    top: -50px;
 }
