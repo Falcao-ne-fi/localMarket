@@ -15,6 +15,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #07627e;
 }
 *{
     padding: 0;
@@ -31,14 +32,16 @@ body{
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     gap: 2vh;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 5px 15px #bd3c3ca2;
-    height: 300px;
+    height: 180px;
+    width: 220px;
+    background-color: #f587d9;
 
 }
 .error-div{
@@ -69,6 +72,17 @@ body{
 } */
 
 .round{
-    transform: translateY(-60px);
+    transform: translateY(50px);
 }
 
+.wrap-input-label{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
+}
+.btn-login{
+    width: 150px;
+    border-radius: 10px;
+}
