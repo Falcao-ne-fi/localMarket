@@ -33,3 +33,8 @@ function showPassword(){
 
 
 }
+function fecharError(){
+    document.getElementById("error-modal").style.display = "none"
+    document.getElementById("nome").style.borderBottom = "2px solid #090909"
+    document.getElementById("senha").style.borderBottom = "2px solid #090909"
+}
