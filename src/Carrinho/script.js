@@ -24,17 +24,51 @@ $(document).ready(function() { // ".ready" executa a função quando o html term
 
         totalElement.text(`Total: $${totalPreco.toFixed(2)}`) //muda o texto do html para mopstrar o reço total
     }
-    exibirCarrinho()
+    
 
     function removerItem(index){ //funçao pra remover o item do carrinho, precisa do index de parametro
         carrinho.splice(index, 1) //remove o produto de acordo com o index
         localStorage.setItem("carrinho", JSON.stringify(carrinho)) //salva o novo carrinho
         exibirCarrinho()// carrega o carrinho denovo
     }
+    exibirCarrinho()
 
     //funcao de removerItem
 
 })
+
+function gerar(){
+    const listaElement = document.getElementById("lista") 
+    const totalElement = document.getElementById("total")
+    const listaClone = listaElement.cloneNode(true)
+
+    $(listaClone).find("button").remove()
+    const listaHtml = listaClone.innerHTML
+    const totalHtml = totalElement.cloneNode(true)
+    const conteudoHTML = `
+    <html>
+        <head>
+            <meta charset="UTF-8">
+        </head>
+        <body>
+            <h1>PEDIDO CONFIRMADO</h1>
+            <h3>Agradecemos sua compra e sua preferência.</h3>
+            <br>
+            ${listaHtml}
+            <br>
+            <br>
+            ${totalHtml}
+        </body>
+    </html>
+    `
+    const blob = new Blob([conteudoHTML], {type: "application/msword"})
+    const link = document.createElement("a") 
+
+    link.href = URL.createObjectURL(blob)
+    link.download = "pedido.doc"
+    link.click()
+    document.getElementById("pedido").style.display = "none"
+}
 
 //gerar word
 

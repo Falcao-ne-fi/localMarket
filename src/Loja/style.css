@@ -1,9 +1,9 @@
 :root{
-    --color1: #0EB7DB;
-    --color2: #2B2D5A;
-    --color3: #B8336A;
-    --color4: #C490D1;
-    --color5: #D3F6DB;
+    --color1: #e90313;
+    --color2: #a3020d;
+    --color3: #009a29;
+    --color4: #ededed;
+    --color5: #FFFFFF;
     --text1: #000000;
     --text2: #FFFFFF;
 }
@@ -41,8 +41,8 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 50px;
-    background-color: var(--color2);
+    gap: 150px;
+    background-color: var(--color1);
     padding: 3px;
 }
 
@@ -54,7 +54,6 @@ nav{
     gap: 26px;
     font-size: 10px;
     color: var(--text2);
-    background-color: var(--color4);
     padding: 5px;
     border-radius: 10px;
 }
@@ -65,13 +64,30 @@ nav{
     align-items: center;
     flex-direction: row;
     gap: 8px;
-}
+} 
 
 .carrinho{
     text-decoration: none;
-    background-color: #B8336A;
-    color: var(--text2);
     padding: 5px;
     border-radius: 15px;
     padding-right: 15px;
+    color: var(--text2);
+    transition: all 0.1s ease-in-out;
+    background-color: var(--color3);
+}
+
+.carrinho:hover{
+    color: var(--text2);
+    background-color: #006e1d;
+}
+
+
+
+
+.card-body{
+    background-color: #0EB7DB;
+}
+.card{
+    border:  20px !important;
+    border-color: #0EB7DB;
 }
