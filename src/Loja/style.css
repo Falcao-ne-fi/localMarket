@@ -1,3 +1,12 @@
+:root{
+    --color1: #0EB7DB;
+    --color2: #2B2D5A;
+    --color3: #B8336A;
+    --color4: #C490D1;
+    --color5: #D3F6DB;
+    --text1: #000000;
+    --text2: #FFFFFF;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,5 +15,63 @@
 }
 
 body{
-    padding: 10px;
+    /* padding: 10px; */
+    background-color: var(--color2);
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    background-color: var(--color2);
+    padding: 3px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 26px;
+    font-size: 10px;
+    color: var(--text2);
+    background-color: var(--color4);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.protocolo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.carrinho{
+    text-decoration: none;
+    background-color: #B8336A;
+    color: var(--text2);
+    padding: 5px;
+    border-radius: 15px;
+    padding-right: 15px;
 }
