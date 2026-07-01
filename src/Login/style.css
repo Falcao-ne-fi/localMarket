@@ -1,9 +1,4 @@
 :root{
-    --azulclaro: #8ECAE6;
-    --azulescuro: #023047;
-    --azulmedio: #064f74;
-    --amarelo:#FFB703 ;
-    --laranja: #FB8500;
     --errorbg: lightpink;
     --texto: #ffffff;
     --dark: #090909;
@@ -39,7 +34,7 @@
 }
 
 body{
-    background-color: var(#ffffff);
+    background-color: var(--vermelho);
     color: var(--texto);
     overflow-x: hidden;
     min-height: 100vh;
