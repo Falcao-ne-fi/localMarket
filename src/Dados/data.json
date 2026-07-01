@@ -1,20 +1,92 @@
 [
     {
         "id": 1,
-        "desc": "Galinha Sedosa",
-        "imagem": "../../public/Ga_silkie.jpg",
-        "valor": 600.00
+        "desc": "AMD Ryzen 5 5600g",
+        "imagem": "../../public/ryzen5.png",
+        "valor": 799.99
     },
-    {
+      {
         "id": 2,
-        "desc": "Galinha Jersey Gigante",
-        "imagem": "../../public/jersey_gigante.jpg",
-        "valor": 1200.00
+        "desc": "Intel Core I5 10400f",
+        "imagem": "../../public/corei5.png",
+        "valor": 789.99
     },
-    {
+      {
         "id": 3,
-        "desc": "Galinha Leghorn",
-        "imagem": "../../public/ga_ga.webp",
-        "valor": 300.00
+        "desc": "Water Cooler Rise mode 360mm",
+        "imagem": "../../public/water cooler.png",
+        "valor": 299.99
+    },
+     {
+        "id": 4,
+        "desc": "Nvidia RTX 4090",
+        "imagem": "../../public/4090.jpg",
+        "valor": 20000.00
+    },
+      {
+        "id": 5,
+        "desc": "AMD Radeon RX 6600",
+        "imagem": "../../public/rx 6600.png",
+        "valor": 1800.00
+    },
+      {
+        "id": 6,
+        "desc": "Gabinete Mid Tower",
+        "imagem": "../../public/gabinete.png",
+        "valor": 220.00
+    },
+     {
+        "id": 7,
+        "desc": "Nvidia GTX 2080 Super",
+        "imagem": "../../public/gtx 2080 super.png",
+        "valor": 400.00
+    },
+      {
+        "id": 8,
+        "desc": "Kit completo PC Gamer",
+        "imagem": "../../public/kit pc.png",
+        "valor": 2500.00
+    },
+      {
+        "id": 9,
+        "desc": "Fone headset Fortek",
+        "imagem": "../../public/fone.png",
+        "valor": 130.00
+    },
+     {
+        "id": 10,
+        "desc": "Cadeira Gamer Jupiter",
+        "imagem": "../../public/cadeira.png",
+        "valor": 400.00
+    },
+      {
+        "id": 11,
+        "desc": "Teclado Gamer Redragon",
+        "imagem": "../../public/teclado.png",
+        "valor": 450.00
+    },
+      {
+        "id": 12,
+        "desc": "Mouse Gamer",
+        "imagem": "../../public/mouse.png",
+        "valor": 99.99
+    },
+      {
+        "id": 13,
+        "desc": "Intel Core I9 14900k",
+        "imagem": "../../public/core i9.png",
+        "valor": 2899.99
+    },
+      {
+        "id": 14,
+        "desc": "AMD Radeon RX 7600",
+        "imagem": "../../public/rx 7600.png",
+        "valor": 1999.99
+    },
+      {
+        "id": 15,
+        "desc": "SSD Kingston 300gb",
+        "imagem": "../../public/ssd.png",
+        "valor": 250.00
     }
 ]
